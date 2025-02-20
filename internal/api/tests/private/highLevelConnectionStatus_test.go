@@ -78,5 +78,5 @@ var _ = Describe("high level connection status", func() {
 		Expect(result).To(HaveKeyWithValue("message","maximum input length exceeded"))
 
 	})
-})
+	
 })
