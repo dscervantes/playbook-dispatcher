@@ -75,7 +75,7 @@ var _ = Describe("high level connection status", func() {
 		result, response := getConnectionStatus(payload)
 
 		Expect(response.StatusCode()).To(Equal(400))
-		Expect(result).To(HaveKeyWithValue("message","maximum input length exceeded"))
+		Expect(result).To(HaveKeyWithValue("message","Maximum number of hosts exceeded"))
 
 	})
 	
